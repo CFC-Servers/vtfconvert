@@ -9,3 +9,4 @@ services:
     container_name: "vtfconvert_web"
     environment:
       FLASK_APP: "main.py"
+    restart: always
